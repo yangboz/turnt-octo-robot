@@ -3,7 +3,7 @@
 //  AddressBookSample00
 //
 //  Created by zhou Yangbo on 13-5-26.
-//  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2013年 GODPAPER. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -14,7 +14,7 @@
 
 @implementation ViewController
 
-@synthesize firstName,phoneNumber,imageView;
+@synthesize firstName,phoneNumber,imageView,datePicker,timeSwicher;
 
 
 - (IBAction)showPicker:(id)sender 
@@ -23,6 +23,20 @@
     picker.peoplePickerDelegate = self;
     
     [self presentModalViewController:picker animated:YES];
+}
+
+- (IBAction)timeSwitcherChange:(id)sender
+{
+    NSLog(@"timeSwicherChanged:%d",timeSwicher.isOn);
+    if (timeSwicher.isOn) {
+//        NSLog(@"datePicker value:%d",datePicker.countDownDuration);
+        timer = [NSTimer scheduledTimerWithTimeInterval:1.00 target:self selector:@selector(timerCommand) userInfo:nil repeats:NO];
+    }
+}
+
+-(void)timerCommand
+{
+    NSLog(@"time up!!!");
 }
 
 - (void)viewDidLoad
@@ -88,4 +102,6 @@
     CFRelease(phoneNumbers);
 }
 
+- (IBAction)timerSwitcherChange:(id)sender {
+}
 @end

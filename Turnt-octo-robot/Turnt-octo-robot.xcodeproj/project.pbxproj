@@ -133,6 +133,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = GODPAPER;
 			};
 			buildConfigurationList = A4FE6A4317531CDC001B22C2 /* Build configuration list for PBXProject "Turnt-octo-robot" */;
 			compatibilityVersion = "Xcode 3.2";
