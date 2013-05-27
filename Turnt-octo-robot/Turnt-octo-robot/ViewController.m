@@ -82,7 +82,7 @@
     self.phoneNumber.text = phone;
     //image view
     if (ABPersonHasImageData(person)) {
-        self.imageView.image = (__bridge_transfer UIImage*)ABRecordCopyValue(person, kABPersonImageFormatThumbnail);
+        self.imageView.image = [UIImage imageWithData:(NSData *)ABPersonCopyImageData(person)];
     }
     //CFRelease
     CFRelease(phoneNumbers);
