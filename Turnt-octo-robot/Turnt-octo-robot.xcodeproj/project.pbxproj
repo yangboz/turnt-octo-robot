@@ -17,6 +17,16 @@
 		A4FE6A6417531CDC001B22C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FE6A6317531CDC001B22C2 /* ViewController.m */; };
 		A4FE6A7317536208001B22C2 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FE6A7217536208001B22C2 /* AddressBook.framework */; };
 		A4FE6A761753620B001B22C2 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FE6A751753620B001B22C2 /* AddressBookUI.framework */; };
+		A4FF220B17543C4400C17E2B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220117543C4400C17E2B /* Icon-72.png */; };
+		A4FF220C17543C4400C17E2B /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220217543C4400C17E2B /* Icon-72@2x.png */; };
+		A4FF220D17543C4400C17E2B /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220317543C4400C17E2B /* Icon-Small-50.png */; };
+		A4FF220E17543C4400C17E2B /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220417543C4400C17E2B /* Icon-Small-50@2x.png */; };
+		A4FF220F17543C4400C17E2B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220517543C4400C17E2B /* Icon-Small.png */; };
+		A4FF221017543C4400C17E2B /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220617543C4400C17E2B /* Icon-Small@2x.png */; };
+		A4FF221117543C4400C17E2B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220717543C4400C17E2B /* Icon.png */; };
+		A4FF221217543C4400C17E2B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220817543C4400C17E2B /* Icon@2x.png */; };
+		A4FF221317543C4400C17E2B /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220917543C4400C17E2B /* iTunesArtwork.png */; };
+		A4FF221417543C4400C17E2B /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220A17543C4400C17E2B /* iTunesArtwork@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +45,16 @@
 		A4FE6A6317531CDC001B22C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4FE6A7217536208001B22C2 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		A4FE6A751753620B001B22C2 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		A4FF220117543C4400C17E2B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A4FF220217543C4400C17E2B /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		A4FF220317543C4400C17E2B /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		A4FF220417543C4400C17E2B /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		A4FF220517543C4400C17E2B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		A4FF220617543C4400C17E2B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		A4FF220717543C4400C17E2B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A4FF220817543C4400C17E2B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A4FF220917543C4400C17E2B /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		A4FF220A17543C4400C17E2B /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +105,16 @@
 		A4FE6A5317531CDC001B22C2 /* Turnt-octo-robot */ = {
 			isa = PBXGroup;
 			children = (
+				A4FF220117543C4400C17E2B /* Icon-72.png */,
+				A4FF220217543C4400C17E2B /* Icon-72@2x.png */,
+				A4FF220317543C4400C17E2B /* Icon-Small-50.png */,
+				A4FF220417543C4400C17E2B /* Icon-Small-50@2x.png */,
+				A4FF220517543C4400C17E2B /* Icon-Small.png */,
+				A4FF220617543C4400C17E2B /* Icon-Small@2x.png */,
+				A4FF220717543C4400C17E2B /* Icon.png */,
+				A4FF220817543C4400C17E2B /* Icon@2x.png */,
+				A4FF220917543C4400C17E2B /* iTunesArtwork.png */,
+				A4FF220A17543C4400C17E2B /* iTunesArtwork@2x.png */,
 				A4FE6A5C17531CDC001B22C2 /* AppDelegate.h */,
 				A4FE6A5D17531CDC001B22C2 /* AppDelegate.m */,
 				A4FE6A5F17531CDC001B22C2 /* MainStoryboard.storyboard */,
@@ -159,6 +189,16 @@
 			files = (
 				A4FE6A5817531CDC001B22C2 /* InfoPlist.strings in Resources */,
 				A4FE6A6117531CDC001B22C2 /* MainStoryboard.storyboard in Resources */,
+				A4FF220B17543C4400C17E2B /* Icon-72.png in Resources */,
+				A4FF220C17543C4400C17E2B /* Icon-72@2x.png in Resources */,
+				A4FF220D17543C4400C17E2B /* Icon-Small-50.png in Resources */,
+				A4FF220E17543C4400C17E2B /* Icon-Small-50@2x.png in Resources */,
+				A4FF220F17543C4400C17E2B /* Icon-Small.png in Resources */,
+				A4FF221017543C4400C17E2B /* Icon-Small@2x.png in Resources */,
+				A4FF221117543C4400C17E2B /* Icon.png in Resources */,
+				A4FF221217543C4400C17E2B /* Icon@2x.png in Resources */,
+				A4FF221317543C4400C17E2B /* iTunesArtwork.png in Resources */,
+				A4FF221417543C4400C17E2B /* iTunesArtwork@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +242,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -226,7 +266,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;

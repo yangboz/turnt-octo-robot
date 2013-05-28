@@ -30,13 +30,17 @@
     NSLog(@"timeSwicherChanged:%d",timeSwicher.isOn);
     if (timeSwicher.isOn) {
 //        NSLog(@"datePicker value:%d",datePicker.countDownDuration);
-        timer = [NSTimer scheduledTimerWithTimeInterval:1.00 target:self selector:@selector(timerCommand) userInfo:nil repeats:NO];
+        timer = [NSTimer scheduledTimerWithTimeInterval:self.datePicker.countDownDuration target:self selector:@selector(timerCommand) userInfo:nil repeats:NO];
     }
 }
 
 -(void)timerCommand
 {
     NSLog(@"time up!!!");
+    //Modal display the phone call UIInterface.
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Time Up" message:self.firstName.text delegate:self cancelButtonTitle:@"CANCEL" otherButtonTitles:@"OK", nil];
+    [alertView show];
+    [alertView release];
 }
 
 - (void)viewDidLoad
