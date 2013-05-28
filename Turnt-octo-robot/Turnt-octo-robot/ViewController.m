@@ -7,15 +7,18 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
 
 @end
-
+//@see:https://developer.apple.com/library/ios/navigation/#section=Frameworks&topic=AddressBook
 @implementation ViewController
 
 @synthesize firstName,phoneNumber,imageView,datePicker,timeSwicher;
-
+//@see:http://marshal.easymorse.com/archives/4064
+//SystemSoundID soundID;
+AVAudioPlayer *player;
 
 - (IBAction)showPicker:(id)sender 
 {
@@ -38,9 +41,15 @@
 {
     NSLog(@"time up!!!");
     //Modal display the phone call UIInterface.
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Time Up" message:self.firstName.text delegate:self cancelButtonTitle:@"CANCEL" otherButtonTitles:@"OK", nil];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Time Up" message:self.firstName.text delegate:self cancelButtonTitle:@"Decline" otherButtonTitles:@"Answer", nil];
     [alertView show];
     [alertView release];
+    //Play ringtone
+    NSURL *filePath = [[NSBundle mainBundle] URLForResource:@"iphone_remix1" withExtension:@"mp3"];
+//    AudioServicesCreateSystemSoundID((CFURLRef)filePath, &soundID);
+//    AudioServicesPlaySystemSound(soundID);
+    player = [[AVAudioPlayer alloc] initWithContentsOfURL:filePath error:NULL];
+    [player play];
 }
 
 - (void)viewDidLoad

@@ -27,6 +27,9 @@
 		A4FF221217543C4400C17E2B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220817543C4400C17E2B /* Icon@2x.png */; };
 		A4FF221317543C4400C17E2B /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220917543C4400C17E2B /* iTunesArtwork.png */; };
 		A4FF221417543C4400C17E2B /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FF220A17543C4400C17E2B /* iTunesArtwork@2x.png */; };
+		A4FFFB671754F81800CBD35E /* iphone_remix1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4FFFB661754F81800CBD35E /* iphone_remix1.mp3 */; };
+		A4FFFB691754FA3D00CBD35E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FFFB681754FA3D00CBD35E /* AVFoundation.framework */; };
+		A4FFFB6D1754FB7D00CBD35E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FFFB6C1754FB7D00CBD35E /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		A4FF220817543C4400C17E2B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		A4FF220917543C4400C17E2B /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		A4FF220A17543C4400C17E2B /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		A4FFFB661754F81800CBD35E /* iphone_remix1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_remix1.mp3; sourceTree = "<group>"; };
+		A4FFFB681754FA3D00CBD35E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A4FFFB6C1754FB7D00CBD35E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FFFB6D1754FB7D00CBD35E /* AudioToolbox.framework in Frameworks */,
+				A4FFFB691754FA3D00CBD35E /* AVFoundation.framework in Frameworks */,
 				A4FE6A761753620B001B22C2 /* AddressBookUI.framework in Frameworks */,
 				A4FE6A7317536208001B22C2 /* AddressBook.framework in Frameworks */,
 				A4FE6A4E17531CDC001B22C2 /* UIKit.framework in Frameworks */,
@@ -93,6 +101,8 @@
 		A4FE6A4C17531CDC001B22C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4FFFB6C1754FB7D00CBD35E /* AudioToolbox.framework */,
+				A4FFFB681754FA3D00CBD35E /* AVFoundation.framework */,
 				A4FE6A751753620B001B22C2 /* AddressBookUI.framework */,
 				A4FE6A7217536208001B22C2 /* AddressBook.framework */,
 				A4FE6A4D17531CDC001B22C2 /* UIKit.framework */,
@@ -105,6 +115,7 @@
 		A4FE6A5317531CDC001B22C2 /* Turnt-octo-robot */ = {
 			isa = PBXGroup;
 			children = (
+				A4FFFB661754F81800CBD35E /* iphone_remix1.mp3 */,
 				A4FF220117543C4400C17E2B /* Icon-72.png */,
 				A4FF220217543C4400C17E2B /* Icon-72@2x.png */,
 				A4FF220317543C4400C17E2B /* Icon-Small-50.png */,
@@ -199,6 +210,7 @@
 				A4FF221217543C4400C17E2B /* Icon@2x.png in Resources */,
 				A4FF221317543C4400C17E2B /* iTunesArtwork.png in Resources */,
 				A4FF221417543C4400C17E2B /* iTunesArtwork@2x.png in Resources */,
+				A4FFFB671754F81800CBD35E /* iphone_remix1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

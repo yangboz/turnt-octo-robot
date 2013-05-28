@@ -4,29 +4,35 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Info.plist Turnt-octo-robot/Turnt-octo-robot-Info.plist
 cProcessPCH /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/PrecompiledHeaders/Turnt-octo-robot-Prefix-frcfuyullvaazfgywjauvurjjiah/Turnt-octo-robot-Prefix.pch.pth Turnt-octo-robot/Turnt-octo-robot-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/AppDelegate.o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/main.o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot normal i386
 cGenerateDSYMFile /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot
-cCopyStringsFile /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/en.lproj/InfoPlist.strings Turnt-octo-robot/en.lproj/InfoPlist.strings
 cCompileStoryboard /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/en.lproj/MainStoryboard.storyboard
+cCopyStringsFile /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/en.lproj/InfoPlist.strings Turnt-octo-robot/en.lproj/InfoPlist.strings
 cCpResource Turnt-octo-robot/Icon-72.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Icon-72.png
 cCpResource Turnt-octo-robot/Icon-72@2x.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Icon-72@2x.png
 cCpResource Turnt-octo-robot/Icon-Small-50.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Icon-Small-50.png
 cCpResource Turnt-octo-robot/Icon-Small-50@2x.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Icon-Small-50@2x.png
 cCpResource Turnt-octo-robot/Icon-Small.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Icon-Small.png
 cCpResource Turnt-octo-robot/Icon-Small@2x.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Icon-Small@2x.png
-cCpResource Turnt-octo-robot/Icon@2x.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Icon@2x.png
 cCpResource Turnt-octo-robot/Icon.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Icon.png
+cCpResource Turnt-octo-robot/Icon@2x.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Icon@2x.png
 cCpResource Turnt-octo-robot/iTunesArtwork.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iTunesArtwork.png
 cCpResource Turnt-octo-robot/iTunesArtwork@2x.png Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iTunesArtwork@2x.png
+cCpResource Turnt-octo-robot/iphone_remix1.mp3 Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iphone_remix1.mp3
 cTouch /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
 c000000004F161A590000000000000110
 t1326848601
 s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004F34AA0B000000000018D430
+t1328851467
+s1627184
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
 c000000004F34AA0300000000000954B0
@@ -37,6 +43,11 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 c000000004F34AA070000000000169840
 t1328851463
 s1480768
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F34AA0800000000002F4210
+t1328851464
+s3097104
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000004F34AA100000000000245480
@@ -67,19 +78,19 @@ t1369647804
 s557
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.o
-t1369703737
-s67940
+t1369751833
+s75352
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/main.o
 t1369670880
 s3152
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app
-t1369703738
-s544
+t1369751833
+s578
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM
-t1369703738
+t1369751833
 s102
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Icon-72.png
@@ -123,8 +134,8 @@ t1369647804
 s8
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot
-t1369703738
-s25996
+t1369751833
+s26384
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/en.lproj/InfoPlist.strings
 t1369647805
@@ -141,6 +152,10 @@ s42668
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iTunesArtwork@2x.png
 t1369703738
 s68076
+
+N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iphone_remix1.mp3
+t1369751833
+s2929604
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/AppDelegate.h
 c0000000051A384E0000000000000011E
@@ -203,9 +218,9 @@ t1369671510
 s906
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/ViewController.m
-c0000000051A407F90000000000000CD3
-t1369704441
-s3283
+c0000000051A4C3320000000000000F08
+t1369752370
+s3848
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/en.lproj/InfoPlist.strings
 c0000000051A2E55C000000000000002D
@@ -226,6 +241,11 @@ N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-rob
 c0000000051A4047E00000000000109EC
 t1369703550
 s68076
+
+N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/iphone_remix1.mp3
+c000000004685B80200000000002CB3C4
+t1183168514
+s2929604
 
 N/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/main.m
 c0000000051A384E00000000000000159
@@ -248,7 +268,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies25e7f47c3f54b741^5934f57c3f54b741^---0#1#0#--18"Check dependencies36"D5CD6114-8598-435D-9B04-9467FDD6557A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies833249b4fa54b741^76fa5db4fa54b741^---0#1#0#--18"Check dependencies36"2DCAAA03-BEBF-483F-8CE4-1A58A806CE92-
 
 CCompileC Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/AppDelegate.o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s391363680.405179
@@ -264,8 +284,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/AppDelegate.m302f6860bc53b741^2e029760bc53b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/AppDelegate.m0000000000000000^3982"CompileC Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/AppDelegate.o Turnt-octo-robot/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-generated-files.hmap -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-project-headers.hmap -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/DerivedSources -F/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator -include /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/PrecompiledHeaders/Turnt-octo-robot-Prefix-frcfuyullvaazfgywjauvurjjiah/Turnt-octo-robot-Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/AppDelegate.dia -c /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/AppDelegate.m -o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/AppDelegate.o36"E309C8DD-C53D-485F-8816-B9A214ED3379-
 
 CCompileC Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s391397244.977856
-e391397245.106423
+s391445172.396466
+e391445172.491079
 r1
 xCompileC
 xBuild/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.o
@@ -274,7 +294,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/ViewController.m0b7bfa7c3f54b741^573e1b7d3f54b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/ViewController.m0000000000000000^4000"CompileC Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.o Turnt-octo-robot/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-generated-files.hmap -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-project-headers.hmap -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/DerivedSources -F/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator -include /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/PrecompiledHeaders/Turnt-octo-robot-Prefix-frcfuyullvaazfgywjauvurjjiah/Turnt-octo-robot-Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.dia -c /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/ViewController.m -o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.o36"66B24135-814B-4BD8-80B3-B5ED6F91C535-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/ViewController.m7ba065b4fa54b741^7cb77db4fa54b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/ViewController.m0000000000000000^4000"CompileC Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.o Turnt-octo-robot/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-generated-files.hmap -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Turnt-octo-robot-project-headers.hmap -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/DerivedSources -F/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator -include /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/PrecompiledHeaders/Turnt-octo-robot-Prefix-frcfuyullvaazfgywjauvurjjiah/Turnt-octo-robot-Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.dia -c /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/ViewController.m -o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/ViewController.o36"7C6A3819-29F1-4E5A-96FB-71D14BFFBCA6-
 
 CCompileC Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/main.o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s391363680.404967
@@ -400,24 +420,33 @@ xTurnt-octo-robot/iTunesArtwork@2x.png
 xBuild/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iTunesArtwork@2x.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iTunesArtwork@2x.png286219ba3c54b741^34301aba3c54b741^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iTunesArtwork@2x.png000000000080d041^844"CpResource "Turnt-octo-robot/iTunesArtwork@2x.png" "Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iTunesArtwork@2x.png"    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/iTunesArtwork@2x.png" /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app36"24205CE3-22F8-4055-996F-6989CFA6A181-
 
+CCpResource Turnt-octo-robot/iphone_remix1.mp3 Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iphone_remix1.mp3
+s391444633.276528
+e391444633.339983
+r1
+xCpResource
+xTurnt-octo-robot/iphone_remix1.mp3
+xBuild/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iphone_remix1.mp3
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iphone_remix1.mp390dc4699f854b741^ff085799f854b741^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iphone_remix1.mp3000000000080d041^829"CpResource Turnt-octo-robot/iphone_remix1.mp3 Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/iphone_remix1.mp3    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Turnt-octo-robot/iphone_remix1.mp3 /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app36"62B045F1-DC7A-4036-A5BC-F81579AF5375-
+
 CGenerateDSYMFile /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot
-s391397245.148627
-e391397245.164802
+s391445172.535691
+e391445172.570548
 r1
 xGenerateDSYMFile
 x/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM
 x/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Generating /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM5c1b267d3f54b741^88302a7d3f54b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM/0000000000000000^802"GenerateDSYMFile Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot -o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM36"5E44C437-9A15-475A-8CD9-DC8D90159335-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Generating /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYMd33389b4fa54b741^2c0f92b4fa54b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM/0000000000000000^802"GenerateDSYMFile Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot -o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app.dSYM36"26E13F34-6C38-4395-AB68-C8758EE01643-
 
 CLd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot normal i386
-s391397245.114117
-e391397245.141996
+s391445172.498023
+e391445172.527964
 r1
 xLd
 x/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Link /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot0e491d7d3f54b741^2d5a247d3f54b741^---0#0#0#--1441"Ld Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot normal i386    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator -F/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator -filelist /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/Turnt-octo-robot.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework AddressBookUI -framework AddressBook -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot36"BA3CE192-C09B-46E4-8685-02B59A1CFA78-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Link /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robote6917fb4fa54b741^0b2987b4fa54b741^---0#0#0#--1465"Ld Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot normal i386    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator -F/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator -filelist /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Intermediates/Turnt-octo-robot.build/Debug-iphonesimulator/Turnt-octo-robot.build/Objects-normal/i386/Turnt-octo-robot.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework AVFoundation -framework AddressBookUI -framework AddressBook -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Turnt-octo-robot36"59B45C7B-C47A-45E3-8E30-BB3868A42F14-
 
 CProcessInfoPlistFile /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app/Info.plist Turnt-octo-robot/Turnt-octo-robot-Info.plist
 s391340604.527659
@@ -445,10 +474,10 @@ CProcessPCH /Users/smartkit/Library/Developer/Xcode/DerivedData/Turnt-octo-robot
 r0
 
 CTouch /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app
-s391397245.184322
-e391397245.189451
+s391445172.592288
+e391445172.618325
 r1
 xTouch
 x/Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Touch /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.appeb3b2f7d3f54b741^cc7f307d3f54b741^---0#0#0#--476"Touch Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app36"3B913F77-636E-4316-A772-8A5D35E9ABD3-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Touch /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app1db097b4fa54b741^ba4b9eb4fa54b741^---0#0#0#--476"Touch Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app    cd /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/Github/turnt-octo-robot/Turnt-octo-robot/Build/Products/Debug-iphonesimulator/Turnt-octo-robot.app36"D958CB83-E997-4085-9852-F33710BA1CBB-
 
