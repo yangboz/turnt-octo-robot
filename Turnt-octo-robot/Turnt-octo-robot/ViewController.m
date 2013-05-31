@@ -19,6 +19,8 @@
 //@see:http://marshal.easymorse.com/archives/4064
 //SystemSoundID soundID;
 AVAudioPlayer *player;
+//UIAlertView
+UIAlertView *alertView;
 
 - (IBAction)showPicker:(id)sender 
 {
@@ -41,7 +43,7 @@ AVAudioPlayer *player;
 {
     NSLog(@"time up!!!");
     //Modal display the phone call UIInterface.
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Time Up" message:self.firstName.text delegate:self cancelButtonTitle:@"Decline" otherButtonTitles:@"Answer", nil];
+    alertView = [[UIAlertView alloc] initWithTitle:@"Time Up" message:self.firstName.text delegate:self cancelButtonTitle:@"Decline" otherButtonTitles:@"Answer", nil];
     [alertView show];
     [alertView release];
     //Play ringtone
@@ -116,5 +118,19 @@ AVAudioPlayer *player;
 }
 
 - (IBAction)timerSwitcherChange:(id)sender {
+}
+
+//UIAlertViewDelegate
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    [player stop];//Stop ringtone.
+    if (buttonIndex == 0)////Code for Decline button
+    {
+        //Empty handler.
+    }
+    if (buttonIndex == 1)//Code for Answer button 
+    {
+        //TODO:Present a phone call view.
+    }
 }
 @end

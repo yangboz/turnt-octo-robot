@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AddressBookUI/AddressBookUI.h>
 
-@interface ViewController : UIViewController <ABPeoplePickerNavigationControllerDelegate>
+@interface ViewController : UIViewController <ABPeoplePickerNavigationControllerDelegate,UIAlertViewDelegate>
 {
     IBOutlet UILabel *_firstName;
     IBOutlet UILabel *_phoneNumber;
